@@ -1,0 +1,116 @@
+/*
+MIT License
+
+Copyright (c) 2017 Benny Schmidt(hello@bennyschmidt.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+#web > .row > .col-md-8 {
+  width: 100%;
+}
+#quicktips {
+  display: none;
+}
+#products {
+  margin: 4rem 0;
+}
+#foki,
+#research .navbar.navbar-default {
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.1);
+  margin: 1rem auto;
+}
+#research a {
+  border-radius: 100vw;
+}
+#research a:hover,
+#research a:active {
+  border-radius: 0;
+}
+#mark {
+  display: none;
+}
+.result.row,
+.product {
+  box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background: white;
+}
+.result.row .title {
+  color: #3c4e56;
+  font-weight: 400;
+  font-size: 1.05em;
+  line-height: 1.4em;
+}
+.content-wrapper {
+  background-color: transparent;
+  box-shadow: none;
+}
+.result.row > .number.col-sm-1 {
+  color: #3c4e56 !important;
+  width: auto;
+  padding: 1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 0;
+}
+.resultInformation.col-xs-12 {
+  float: none;
+  width: 100%;
+}
+a {
+  color: #337ab7;
+}
+a.visited {
+  color: #a26bbf;
+}
+.lSNext .fa-chevron-right,
+.lSPrev .fa-chevron-left {
+  border-radius: 100vw;
+  padding: 1rem 1.25rem;
+  color: white;
+  background: rgba(100, 100, 100, 0.5);
+}
+.new-feature.badge {
+  background: rgba(255, 136, 0, 0.75);
+}
+.logo a h1 {
+  filter: brightness(0.2) hue-rotate(-180deg);
+  opacity: 0.25;
+  font-size: 2em;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border: none;
+  background: transparent;
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus {
+  background: rgb(230, 230, 234);
+}
+.lSSlideWrapper {
+  position: static;
+}
+.lsSlideOuter {
+  transform: translate3d(-3%, 0, 0);
+}
